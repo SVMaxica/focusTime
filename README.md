@@ -31,7 +31,7 @@ Here are some screenshots showcasing the app:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SVMaxica/focus-timer.git
+   git clone https://github.com/SVMaxica/focusTime.git
    ```
 2. Navigate to the project directory:
    ```bash
