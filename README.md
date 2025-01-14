@@ -1,11 +1,77 @@
-# Sample Snack app
+# Focus Timer App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Overview
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Focus Timer is a simple and effective productivity app designed to help you stay focused on specific tasks. It allows you to set a timer, track progress, and get notified when your focus session ends.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+### Key Features:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- **Input Task:** Enter what you want to focus on.
+- **Custom Timer:** Choose a focus duration (10, 15, or 20 minutes).
+- **Progress Tracker:** Visualize your progress with a status bar.
+- **Notifications:** Receive a phone vibration alert when the timer ends.
+- **Task Status:** Completed tasks are displayed in green text.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+This was my first React Native project, created as part of a training program.
+
+## Screenshots
+
+Here are some screenshots showcasing the app:
+
+1. **Input Task Screen**
+   ![Input Task](assets/IMG_7641.PNG)
+
+2. **Timer Selection Screen**
+   ![Timer Selection](assets/IMG_7642.PNG)
+
+3. **Progress and Completion**
+   ![Progress Bar and Completion](assets/IMG_7643.PNG)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SVMaxica/focus-timer.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd focus-timer
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## How to Use
+
+1. Open the app and input the task you want to focus on.
+2. Press the `+` button to navigate to the timer screen.
+3. Select your desired focus duration (10, 15, or 20 minutes).
+4. Press **Start** to begin the timer.
+5. Track your progress using the status bar.
+6. When the timer ends, your phone will vibrate, and the task status will display as completed in green.
+
+## Technologies Used
+
+- **React Native**
+- **Expo**
+- **TypeScript**
+- **React Native Paper** for UI components
+
+## Future Improvements
+
+- Add customizable focus durations.
+- Include a history log for completed tasks.
+- Provide dark mode support.
+
+## License
+
+This project is licensed under the 0BSD License.
+
+---
+
+For any questions or feedback, feel free to reach out!

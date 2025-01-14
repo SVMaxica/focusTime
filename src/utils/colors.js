@@ -4,3 +4,5 @@ export const colors = {
   progressBar: '#5E84E2',
   green: '#00E676'
 }
+
+

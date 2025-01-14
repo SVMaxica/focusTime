@@ -19,14 +19,14 @@ export const Countdown = ({ minutes = 0.1, isPaused, onProgress, onEnd }) => {
     setMillis((time) => {
       if (time === 0) {
         clearInterval(interval.current);
-        onEnd();  // Anropa endast onEnd, inte reset här
-        reset();  // Anropa reset omedelbart efter onEnd här inuti Countdown
+        onEnd();  
+        reset();  
         return time;
       }
       const timeLeft = Math.round(time - 1000);
       return timeLeft;
     });
-  }, [onEnd, reset]);  // Inkludera 'reset' i dependency array
+  }, [onEnd, reset]); 
 
   useEffect(() => {
     setMillis(minutesToMillis(minutes));
@@ -61,5 +61,6 @@ const styles = StyleSheet.create({
     color: colors.white,
     padding: spacing.lg,
     backgroundColor: 'rgba(94, 132, 226, 0.3)',
+  
   },
 });
