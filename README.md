@@ -19,13 +19,13 @@ This was my first React Native project, created as part of a training program.
 Here are some screenshots showcasing the app:
 
 1. **Input Task Screen**
-   ![Input Task](assets/IMG_7641.PNG)
+   <img src="assets/IMG_7641.PNG" alt="Input Task" width="500" />
 
 2. **Timer Selection Screen**
-   ![Timer Selection](assets/IMG_7642.PNG)
+   <img src="assets/IMG_7642.PNG" alt="Timer Selection" width="500" />
 
 3. **Progress and Completion**
-   ![Progress Bar and Completion](assets/IMG_7643.PNG)
+   <img src="assets/IMG_7643.PNG" alt="Progress Bar and Completion" width="500" />
 
 ## Installation
 
